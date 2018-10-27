@@ -30,8 +30,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 54rem;
-    height: 54rem;
+    width: 64rem;
+    height: 64rem;
 }
 .graphic {
     display: block;
@@ -40,10 +40,10 @@ body {
     position: absolute;
 }
 
-@media only screen and (max-width: 700px), (max-height: 700px) {
+@media only screen and (max-width: 1000px), (max-height: 1000px) {
     .graphic-box {
-        height: 48rem;
-        width: 48rem;
+        height: 42rem;
+        width: 42rem;
     }
 }
 @media only screen and (max-width: 500px), (max-height: 500px) {

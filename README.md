@@ -16,6 +16,3 @@ Or use this link [iscreamforicecream](https://kingofcaves.github.io/AAAAA/).
 
 > https://elrumordelaluz.github.io/csshake/
 >   - website
->
-> https://github.com/elrumordelaluz/csshake
->   - repository

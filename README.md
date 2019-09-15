@@ -1,10 +1,10 @@
 # AAAAA
 This is basically an art project but it makes even less sense. He scream for he must.
 
-## GETTING STARTED
-Download a copy of the main repository, unzip the files, and then load the index.html in your browser of choice.
+https://kingofcaves.github.io/AAAAA/
 
-Or use this link [iscreamforicecream](https://kingofcaves.github.io/AAAAA/).
+## GETTING STARTED
+Download a copy of the main repository, unzip the files, and then load the index.html in your browser of choice. Or go to the link above just to take a look.
 
 ## SCREENSHOTS
 ![picture of the screaming skull](./docs/AAAAA-1.png)

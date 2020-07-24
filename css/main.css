@@ -1,57 +1,59 @@
-*, *::before, *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
 }
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
+	font-size: 62.5%;
+	box-sizing: border-box;
 }
 body {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
 
-    background: url("../img/AAAAA-scroll.gif");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+	background: url('../img/AAAAA-scroll.gif');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
+	position: relative;
+	width: 100%;
+	height: 100%;
 }
 
 .graphic-box {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 64rem;
-    height: 64rem;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 64rem;
+	height: 64rem;
 }
 .graphic {
-    display: block;
-    max-width: 100%;
-    max-height: auto;
-    position: absolute;
+	display: block;
+	max-width: 100%;
+	max-height: auto;
+	position: absolute;
 }
 
 @media only screen and (max-width: 1000px), (max-height: 1000px) {
-    .graphic-box {
-        height: 42rem;
-        width: 42rem;
-    }
+	.graphic-box {
+		height: 42rem;
+		width: 42rem;
+	}
 }
 @media only screen and (max-width: 500px), (max-height: 500px) {
-    .graphic-box {
-        height: 32rem;
-        width: 32rem;
-    }
+	.graphic-box {
+		height: 32rem;
+		width: 32rem;
+	}
 }
 @media only screen and (max-width: 340px), (max-height: 340px) {
-    .graphic-box {
-        height: 24rem;
-        width: 24rem;
-    }
+	.graphic-box {
+		height: 24rem;
+		width: 24rem;
+	}
 }
